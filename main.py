@@ -22,7 +22,7 @@ LEFT = 2
 RIGHT = 3
 UP = 4
 
-PATH = "tiles\demo-tracks"
+PATH = "tiles\\roads"
 FILE_NAMES = [f for f in listdir(PATH) if isfile(join(PATH, f))]
 TILES = [
     pygame.transform.scale(
